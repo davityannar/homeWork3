@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1555332053788" clover="3.2.0">
+  <project timestamp="1555332053789" name="All files">
+    <metrics statements="34" coveredstatements="25" conditionals="6" coveredconditionals="3" methods="24" coveredmethods="16" elements="64" coveredelements="44" complexity="0" loc="34" ncloc="34" packages="16" files="16" classes="16"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ErrorBoundary">
+      <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="ErrorBoundary.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\ErrorBoundary\ErrorBoundary.js">
+        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.CardItem">
+      <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="CardItem.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\CardItem\CardItem.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.FindYourMovie">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FindeYourMovie.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\FindYourMovie\FindeYourMovie.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Netflix">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Netflix.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\Netflix\Netflix.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Search">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Search.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\Search\Search.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Search.SearchButton">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="SearchButton.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\Search\SearchButton\SearchButton.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Search.SearchInput">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SearchInput.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\Search\SearchInput\SearchInput.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Search.SearchTypes">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SearchTypes.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\Search\SearchTypes\SearchTypes.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Search.SearchTypes.Types">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Types.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\Search\SearchTypes\Types\Types.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.SortingSection.MoviesFound">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MoviesFound.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\SortingSection\MoviesFound\MoviesFound.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.SortingSection.SortBy">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SortBy.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\components\SortingSection\SortBy\SortBy.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mainComponents.Card">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <file name="Card.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\mainComponents\Card\Card.js">
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mainComponents.Footer">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Footer.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\mainComponents\Footer\Footer.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mainComponents.Header">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\mainComponents\Header\Header.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mainComponents.SortingSection">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SortingSection.js" path="C:\Users\Narek_Davityan\Desktop\reactHome-master\src\mainComponents\SortingSection\SortingSection.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -6,7 +6,19 @@
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --open --mode development --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "cypress": "cypress open"
+  },
+  "jest": {
+    "setupFiles": [
+      "./src/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "babel": {
     "presets": [
@@ -17,7 +29,7 @@
       [
         "@babel/plugin-proposal-class-properties"
       ]
-  ]
+    ]
   },
   "author": "narek <narek_davityan@epam.com> (nodeDas.com)",
   "license": "MIT",
@@ -28,8 +40,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
     "file-loader": "^3.0.1",
-    "jest": "^24.5.0",
+    "jest": "^24.7.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
@@ -38,7 +53,11 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.7.1",
+    "cypress": "^3.2.0",
     "dotenv": "^7.0.0",
+    "identity-obj-proxy": "^3.0.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

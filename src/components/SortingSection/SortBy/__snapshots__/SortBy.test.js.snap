@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests SortBy component Matching snapshot 1`] = `
+<div
+  className="sort-filters"
+>
+  <p>
+    Sort by
+  </p>
+  <Types
+    checkedByDefault={true}
+    inputClass="secondary-filter"
+    inputId="release"
+    inputName="sort"
+    inputText="release date"
+    inputType="radio"
+    inputValue="RELEASE"
+  />
+  <Types
+    inputClass="secondary-filter"
+    inputId="rating"
+    inputName="sort"
+    inputText="rating"
+    inputType="radio"
+    inputValue="RATING"
+  />
+</div>
+`;

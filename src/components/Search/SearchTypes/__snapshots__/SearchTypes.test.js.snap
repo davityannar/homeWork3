@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests SearchTypes component Matching snapshot 1`] = `
+<div
+  className="search-filters"
+>
+  <p>
+    Search by
+  </p>
+  <Types
+    checkedByDefault={true}
+    inputClass="filter"
+    inputId="title"
+    inputName="search"
+    inputText="Title"
+    inputType="radio"
+    inputValue="TITLE"
+  />
+  <Types
+    inputClass="filter"
+    inputId="genre"
+    inputName="search"
+    inputText="Genre"
+    inputType="radio"
+    inputValue="GENRE"
+  />
+</div>
+`;

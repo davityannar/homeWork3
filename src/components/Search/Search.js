@@ -6,6 +6,7 @@ import SearchButton from './SearchButton/SearchButton';
 import './Search.scss';
 
 export class Search extends Component {
+  
     render() {
         return (
             <form>

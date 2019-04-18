@@ -1,14 +1,23 @@
 .card {
+    color: dimgrey;
     width: 30%;
     margin-bottom: 30px;
     margin-right: 5%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 3px rgba(44, 47, 60, 0.06);
   
     &:nth-child(3n) {
       margin-right: 0;
     }
   
     &:hover {
+      box-shadow: 10px 4px 22px 5px rgba(44, 47, 60, 0.16);
       cursor: pointer;
+      & .card-film-name {
+        color: black;
+        font-size: bold;
+    }
+   
     }
   }
   
@@ -25,12 +34,12 @@
     justify-content: space-between;
     margin-bottom: 5px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
   
     .card-year {
-      padding: 3px 5px;
-      border: 1px solid #000;
-      border-radius: 5px;
+      border: 1px solid dimgrey;
+      padding: 3px 6px;
+      border-radius: 3px;
     }
   }
   
